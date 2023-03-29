@@ -2,27 +2,44 @@ body{
     background-color: white;
     margin: 0px; /* Remover margem do externo da pagina*/
 }
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.menuAtividades a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+    margin-left: 25px;
+}
+.nav img{
+    height: 15px;
+}
 .Header{
     background-color: rgb(148, 187, 219); /* Fundo da divisão menu */
     width: 100%; /* Fundo Alinhar por completo com o navegador na horizontal */
     height: 150px; /* Altura da divisão menu */
     display: flex; /* Adicione esta propriedade */
     justify-content: space-between; /* Altere o valor de justify-content */
-    flex-direction: row;
 }
 .logo{
     height: 100px; /* Medida em pixel da altura do logo */
     padding: 5px; /* Espaçamento em volta do objeto*/
     margin-left: 10px; /* Margem a esquerda separando conteudo a direita */
 }
+.logo img{
+    align-items: center;
+}
 .linhas{
     display: flex;
     flex-direction: column;
+    justify-content: start;
 }
 .linha1{
     display: flex;
     justify-content:flex-end;
-    order: 1;
+
 }
 .linha1 a{
     text-decoration: none;
@@ -38,7 +55,6 @@ body{
 }
 .menuB{
     background-color: rgb(67, 103, 145);
-    float: center;
     padding-left: 40px;
     font-size: 20px;
     text-decoration: none;
@@ -46,6 +62,7 @@ body{
     font-weight: bold;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .menuB a{
     padding: 5px;
