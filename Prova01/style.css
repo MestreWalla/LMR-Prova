@@ -2,11 +2,7 @@ body{
     background-color: white;
     margin: 0px; /* Remover margem do externo da pagina*/
 }
-.nav {
-    display: flex;
-    align-items: center;
-    background-color: black;
-}
+
 .menuAtividades a {
     text-decoration: none;
     color: white;
